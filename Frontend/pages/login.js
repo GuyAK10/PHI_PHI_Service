@@ -1,10 +1,12 @@
-import Login from '..src/components/Login';
+// import Login from '..src/components/Login';
 import MainLayout from '../src/layouts/MainLayout';
-const LoginPage =()=>{
-  return(
+
+const LoginPage = () => {
+  return (
     <MainLayout>
-      <Login/>
+      {/* <Login /> */}
     </MainLayout>
   )
 }
+
 export default LoginPage;

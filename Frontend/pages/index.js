@@ -1,12 +1,12 @@
 import LoginPage from "./login"
 import MainLayout from "../src/layouts/MainLayout";
 
-const MainPage = () =>{
-    return(
+const MainPage = () => {
+    return (
         <MainLayout>
-            <LoginPage/>
+            <LoginPage />
         </MainLayout>
-      
+
     )
 }
 export default MainPage;
