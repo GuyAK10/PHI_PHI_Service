@@ -12265,7 +12265,7 @@ __webpack_require__.r(__webpack_exports__);
 var _jsxFileName = "C:\\Users\\Fluke\\Desktop\\NodeJS\\PHI_PHI_Service\\Frontend\\pages\\_app.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement;
 
- // import { Container } from 'next/app'
+
 
 
 
@@ -12287,23 +12287,26 @@ var MyApp = /*#__PURE__*/function (_App) {
           Component = _this$props.Component,
           pageProps = _this$props.pageProps,
           store = _this$props.store;
-      return (// <Container>
-        __jsx(react_redux__WEBPACK_IMPORTED_MODULE_10__["Provider"], {
-          store: store,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 14
-          },
-          __self: this
-        }, __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 15
-          },
-          __self: this
-        }))) // </Container>
-
-      );
+      return __jsx(next_app__WEBPACK_IMPORTED_MODULE_7__["Container"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13
+        },
+        __self: this
+      }, __jsx(react_redux__WEBPACK_IMPORTED_MODULE_10__["Provider"], {
+        store: store,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14
+        },
+        __self: this
+      }, __jsx(Component, Object(_babel_runtime_corejs2_helpers_esm_extends__WEBPACK_IMPORTED_MODULE_0__["default"])({}, pageProps, {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 15
+        },
+        __self: this
+      }))));
     }
   }]);
 

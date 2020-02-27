@@ -1,10 +1,10 @@
-// import Login from '..src/components/Login';
-import MainLayout from '../src/layouts/MainLayout';
+import Login from './components/Login';
+import MainLayout from './layouts/MainLayout';
 
 const LoginPage = () => {
   return (
     <MainLayout>
-      {/* <Login /> */}
+      <Login />
     </MainLayout>
   )
 }

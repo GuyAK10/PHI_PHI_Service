@@ -1,6 +1,6 @@
 import React from 'react'
 import App from 'next/app'
-// import { Container } from 'next/app'
+import { Container } from 'next/app'
 import withRedux from 'next-redux-wrapper';
 import { initializeStore } from '../src/redux/store';
 import { Provider } from 'react-redux';
@@ -10,11 +10,11 @@ class MyApp extends App {
         const { Component, pageProps, store } = this.props;
 
         return (
-            // <Container>
+            <Container>
                 <Provider store={store}>
                     <Component {...pageProps} />
                 </Provider>
-            // </Container>
+            </Container>
         )
     }
 }
